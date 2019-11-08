@@ -274,12 +274,24 @@ header > nav .hamburger div {
   align-items: stretch;
   flex-direction: column;
   flex-wrap: nowrap;
+  position: relative;
 }
 .descending-cards .card {
+  position: relative;
   background-color: #fff;
   margin-left: 6%;
   margin-right: 6%;
   padding: 3rem;
+  margin-bottom: 100px;
+  z-index: 1;
+}
+.descending-cards .card:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  height: 160px;
+  border: 4px solid hsl(180, 66%, 49%);
+  z-index: 0;
 }
 .intro-background {
   width: 100%;
