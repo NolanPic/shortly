@@ -151,6 +151,7 @@ html {
 }
 body {
   font-family: 'Poppins', sans-serif;
+  text-align: center;
 }
 p,
 span,
@@ -185,6 +186,16 @@ h3 {
 h4 {
   font-size: 2rem;
 }
+.gutter {
+  margin-left: 6%;
+  margin-right: 6%;
+}
+.gutter-left {
+  margin-left: 6%;
+}
+.gutter-right {
+  margin-right: 6%;
+}
 header > nav {
   margin: 35px 0 20px 0;
   padding-left: 6%;
@@ -215,7 +226,7 @@ header > nav .hamburger div {
 .intro-background {
   width: 100%;
   height: 375px;
-  margin-left: 6%;
+  margin-right: 0;
   background-image: url('../images/illustration-working.svg');
   background-repeat: no-repeat;
   background-size: 137%;

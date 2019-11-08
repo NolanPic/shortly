@@ -10,6 +10,7 @@ html {
 
 body {
     font-family: @main-font-family;
+    text-align: center;
 }
 
 p, span, a, li, blockquote, div {
@@ -39,5 +40,18 @@ h3 {
 
 h4 {
     font-size: 2rem;
+}
+
+// gutters
+.gutter {
+    .gutters-margin();
+}
+
+.gutter-left {
+    margin-left: @gutter-size;
+}
+
+.gutter-right {
+    margin-right: @gutter-size;
 }
 
