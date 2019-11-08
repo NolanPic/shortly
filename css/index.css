@@ -185,3 +185,30 @@ h3 {
 h4 {
   font-size: 2rem;
 }
+nav {
+  margin-top: 35px;
+  padding-left: 6%;
+  padding-right: 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+nav .menu {
+  display: none;
+}
+nav .hamburger {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+nav .hamburger div {
+  background-color: hsl(257, 7%, 63%);
+  height: 3px;
+}

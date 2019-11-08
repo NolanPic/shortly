@@ -1,0 +1,22 @@
+
+nav {
+    margin-top: 35px;
+    .gutters-padding();
+    .flex(space-between);
+
+    .menu {
+        display: none;
+    }
+
+    .hamburger {
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+        .flex(space-around, @direction: column);
+
+        div {
+            background-color: @grayishviolet;
+            height: 3px;
+        }
+    }
+}
