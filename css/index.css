@@ -158,7 +158,8 @@ span,
 a,
 li,
 blockquote,
-div {
+div,
+button {
   font-weight: 500;
   color: hsl(257, 7%, 63%);
   font-size: 1.8rem;
@@ -183,6 +184,7 @@ h2 {
 }
 h3 {
   font-size: 2.5rem;
+  padding-bottom: 1.7rem;
 }
 h4 {
   font-size: 2rem;
@@ -197,6 +199,7 @@ h4 {
 .gutter-right {
   margin-right: 6%;
 }
+button,
 .button {
   text-decoration: none;
   display: inline-block;
@@ -234,6 +237,50 @@ header > nav .hamburger div {
   background-color: hsl(257, 7%, 63%);
   height: 3px;
 }
+.shorten-tool {
+  position: relative;
+  top: 80px;
+  height: 160px;
+  background-color: hsl(257, 27%, 26%);
+  border-radius: 1rem;
+  padding: 2.5rem;
+  background-image: url('../images/bg-shorten-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left 80px bottom 30px;
+}
+.shorten-tool input,
+.shorten-tool button {
+  display: block;
+  width: 100%;
+  margin: 0;
+}
+.shorten-tool input {
+  height: 4.7rem;
+  font-size: 1.8rem;
+  color: hsl(0, 0%, 75%);
+  padding-left: 1rem;
+  border: 0;
+  border-radius: 0.7rem;
+  margin-bottom: 1.5rem;
+}
+.shorten-tool button {
+  height: 4.7rem;
+  border-radius: 0.7rem;
+}
+.descending-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.descending-cards .card {
+  background-color: #fff;
+  margin-left: 6%;
+  margin-right: 6%;
+  padding: 3rem;
+}
 .intro-background {
   width: 100%;
   height: 375px;
@@ -241,4 +288,11 @@ header > nav .hamburger div {
   background-image: url('../images/illustration-working.svg');
   background-repeat: no-repeat;
   background-size: 137%;
+}
+.statistics {
+  background-color: #f0f1f6;
+  padding-top: 180px;
+}
+.statistics .statistics-intro {
+  margin-bottom: 100px;
 }
