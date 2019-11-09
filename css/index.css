@@ -148,6 +148,7 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
+  max-width: 100%;
 }
 body {
   font-family: 'Poppins', sans-serif;
@@ -329,7 +330,38 @@ header > nav .hamburger div {
 }
 .bottom-cta h2 {
   color: #fff;
+  font-size: 2.5rem;
 }
 .bottom-cta .button {
   margin-bottom: 0;
+}
+footer {
+  padding: 50px 100px;
+  background-color: hsl(260, 8%, 14%);
+}
+footer .logo {
+  filter: brightness(0) invert(1);
+}
+footer nav h4 {
+  color: #fff;
+  margin: 5rem 0 1.5rem;
+  font-weight: 500;
+}
+footer nav > div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+footer nav > div a {
+  text-decoration: none;
+}
+footer nav .social {
+  margin: 45px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }

@@ -1,0 +1,33 @@
+
+footer {
+    padding: 50px 100px;
+    background-color: @verydarkviolet;
+
+    // chage logo to white
+    .logo {
+        filter: brightness(0) invert(1);
+    }
+
+
+    nav {
+        
+        h4 {
+            color: #fff;
+            margin: 5rem 0 1.5rem;
+            font-weight: @font-weight-normal;
+        }
+
+        &>div {
+            .flex(@direction: column);
+
+            a {
+                text-decoration: none;
+            }
+        }
+        
+        .social {
+            margin: 45px 0;
+            .flex(space-between);
+        }
+    }
+}
