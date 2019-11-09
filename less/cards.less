@@ -2,14 +2,13 @@
 .descending-cards {
     .flex(space-between, @direction: column);
     position: relative;
+    z-index: 1;
 
     .card {
-        position: relative;
         background-color: #fff;
         .gutters-margin();
         padding: 3rem;
         margin-bottom: 100px;
-        z-index: 1;
     }
 
     .card:not(:last-child)::after {
@@ -18,6 +17,6 @@
         display: inline-block;
         height: 160px;
         border: 4px solid @cyan;
-         z-index: 0;
+        z-index: -1;
     }
 }
