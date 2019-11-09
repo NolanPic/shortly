@@ -7,8 +7,18 @@
     .card {
         background-color: #fff;
         .gutters-margin();
-        padding: 3rem;
+        padding: 0 3.4rem 3rem;
         margin-bottom: 100px;
+
+        .card-icon {
+            height: 80px;
+            width: 80px;
+            position: relative;
+            top: -40px;
+            background-color: @darkviolet;
+            padding: 20px;
+            border-radius: 100%;
+        }
     }
 
     .card:not(:last-child)::after {
@@ -19,4 +29,5 @@
         border: 4px solid @cyan;
         z-index: -1;
     }
+
 }
