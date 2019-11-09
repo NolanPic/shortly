@@ -301,6 +301,9 @@ header > nav .hamburger div {
   border: 4px solid hsl(180, 66%, 49%);
   z-index: -1;
 }
+.descending-cards .card:last-child {
+  margin-bottom: 75px;
+}
 .intro-background {
   width: 100%;
   height: 375px;
@@ -315,4 +318,18 @@ header > nav .hamburger div {
 }
 .statistics .statistics-intro {
   margin-bottom: 100px;
+}
+.bottom-cta {
+  background-image: url('../images/bg-boost-mobile.svg');
+  background-repeat: no-repeat;
+  background-color: hsl(257, 27%, 26%);
+  padding: 65px 0;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+.bottom-cta h2 {
+  color: #fff;
+}
+.bottom-cta .button {
+  margin-bottom: 0;
 }
